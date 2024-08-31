@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOSTPLAY</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('SignikaNegative-SemiBold.woff2') format('woff2'),
+        url('SignikaNegative-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gotham light';
+    src: url('Gotham-Light.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Game Of Squids';
+    src: url('GameOfSquids.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('SignikaNegative-Light.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelo';
+    src: url('LoveloBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="cont">
+    <div class="gaga">
+        <div class="contt">
+            <nav class="navbar" id="system">
+                <img src="GHOST PLAY.png" class="logo" alt="">
+                <ul class="navlist">
+                    <a href="index.html">Home</a>
+                    <a href="gta.html">GTA</a>
+                    <a href="adenveutre.html">Adventures</a>
+                    <a href="openworld.html">OpenWorld</a>
+                </ul>
+                <div class="rightnav">
+                    <img src="home-smile-svgrepo-com.svg" alt="" class="homebtn">
+                </div>
+            </nav>
+
+            <!-- ------------------HIDDEN POPUP BOX CODE----------------- -->
+            <!-- ------------------HIDDEN POPUP BOX CODE----------------- -->
+            <!-- ------------------HIDDEN POPUP BOX CODE----------------- -->
+
+
+            <img src="bg.png" alt="" style="width: 100%;" id="poster">
+
+            <!-- ----------------------------GAME CONTAINER------------------------- -->
+            <!-- ----------------------------GAME CONTAINER------------------------- -->
+            <!-- ----------------------------GAME CONTAINER------------------------- -->
+
+            <div class="container" id="maincont">
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="grand-theft-auto-san-andreas-fanart-tw-1366x768.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">GTA SAN ANDREAS</h1>
+                        <p class="abtgame">CJ's gang saga, '90s nostalgia, and crime in San Andreas.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="gtasanbtn">DOWNLOAD</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="392059.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">CALL OF DUTY BLACK OPS 2</h1>
+                        <p class="abtgame">Futuristic warfare, branching storyline, and intense multiplayer in Black Ops 2.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="blackops">DOWNLOAD</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="gta5.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">GTA THEFT AUTO 5</h1>
+                        <p class="abtgame">Open-world mayhem, heists, and chaos in GTA V's sprawling Los Santos.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="gta5btn">DOWNLOAD</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="hit.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">HITMAN ABSOLUTION</h1>
+                        <p class="abtgame">Silent assassin missions, disguises, and strategic takedowns define Hitman series.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="hitmanbtn">DOWNLOAD</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="Cover-FIFA-20-2.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">FIFA 20</h1>
+                        <p class="abtgame">Football simulation, realistic gameplay, and global competitions in FIFA 20.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="fifabtn">DOWNLOAD</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="gameimgbox">
+                        <img src="dog02.jpg" alt="">
+                    </div>
+                        <h1 class="gamename">WATCH DOGS 1</h1>
+                        <p class="abtgame">Hacking, vigilantism, and cyber warfare in the dynamic world of Watch Dogs.</p>
+                    <div class="downloadbox">
+                        <button class="download" id="dogbtn">DOWNLOAD</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------------------- -->
+            <!-- ------------------------GTA 5------------- -->
+            <!-- ----------------------------- -->
+
+            <div class="hidegtacont" id="downloadcont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="gta5_main_img.png" alt="">
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>Processor: Intel Core i5 3470 @ 3.2GHZ (4 CPUs) / AMD X8 FX-8350 @ 4GHZ (8 CPUs)</li>
+                                <li>Memory: 8GB</li>
+                                <li>Video Card: NVIDIA GTX 660 2GB / AMD HD7870 2GB</li>
+                                <li>HARD DISK: 65GB</li>
+                                <li style="font-weight: 900;">PASSWORD: www.ovagames.com</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="loadbtn" id="gta5_down_btn">DOWNLOAD PARTS</button>
+                            </div>
+                        </div>
+                        <div class="system2">
+                            <div class="loadpart">
+                                <a href="https://drive.google.com/file/d/1P63rdFlj93YPC3kilp6xnXCt9gVZs_cb/view" target="_blank" >PART 1</a>
+                                <a href="https://drive.google.com/file/d/1GvBNMOPGyZyB49t6lpnY_zSFYK_h_Xzo/view" target="_blank" >PART 2</a>
+                                <a href="https://drive.google.com/file/d/1SeCSTuOaSWxUepv3SLbsGuzbg5eco42z/view" target="_blank" >PART 3</a>
+                                <a href="https://drive.google.com/file/d/1T0OAOYCMfGB8P9XS1Xip6RNwALa9d9k1/view" target="_blank" >PART 4</a>
+                                <a href="https://drive.google.com/file/d/1mpJP5_O4rvcJQmwDbmvXfXARiEc_JXVu/view" target="_blank" >PART 5</a>
+                                <a href="https://drive.google.com/file/d/1HZkB5KGrjmL2P2pJJiCu6PRvn_KgrGnd/view" target="_blank" >PART 6</a>
+                                <a href="https://drive.google.com/file/d/1RDcNB6WMpb3_As_vvqYnlzefDMl61D14/view" target="_blank" >PART 7</a>
+                                <a href="https://drive.google.com/file/d/1SyevzqhNOcbT_fNJpQYKLdjxnoAmzEbA/view" target="_blank" >PART 8</a>
+                                <a href="https://drive.google.com/file/d/1srSsFkMLxDDKGkyEVNK7o1coLUIdUTEU/view" target="_blank" >PART 9</a>
+                                <a href="https://drive.google.com/file/d/1GiWVF1-5xkktPD5qGTC2w2KZBpVGWRBi/view" target="_blank" >PART 10</a>
+                                <a href="https://drive.google.com/file/d/11HauzcbmSRstSLYXnPXeRh-d51nxEP5L/view" target="_blank" >PART 11</a>
+                                <a href="https://drive.google.com/file/d/1hhBAGJTdfSun0aCH_DuI8Y4bbomuAy9j/view" target="_blank" >PART 12</a>
+                                <a href="https://drive.google.com/file/d/1keL20BRnvXjEpYygjMV4elNNapfM6bTB/view" target="_blank" >PART 13</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ------------------------------------------ -->
+            <!-- ------------------CALL OF DUTY BLACK OPS 2------------------------ -->
+            <!-- ------------------------------------------ -->
+
+            <div class="hidegtacont" id="blackopscont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="pngwing.com (2).png" alt="">
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system" id="cod_box">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>CPU: Intel Core 2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz</li>
+                                <li>Memory: 8GB</li>
+                                <li>Video Card: Nvidia GeForce 8800GT 1 GB or ATI Radeon HD 3870 1 GB</li>
+                                <li>Dedicated Video RAM: 1 GB</li>
+                                <li style="font-weight: 900;">PASSWORD: www.ovagames.com</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="loadbtn" id="cod_down_btn">DOWNLOAD PARTS</button>
+                            </div>
+                        </div>
+                        <div class="system2" id="cod_conta">
+                            <div class="loadpart">
+                                <a href="https://drive.google.com/file/d/1WPfRJslP_2CgiuyzK9J8RfzUym93L4vo/view" target="_blank">PART 1</a>
+                                <a href="https://drive.google.com/file/d/1MMZpfj5sNG4wZW3cNjOIHy9Cltr0T888/view" target="_blank">PART 2</a>
+                                <a href="https://drive.google.com/file/d/1cOcjag6UiVCKUSllYVe6kRwOK4h2gEEE/view" target="_blank">PART 3</a>
+                                <a href="https://drive.google.com/file/d/149B3os3vvqMwHr9rW7koQahDPPw1EfdW/view" target="_blank">PART 4</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ------------------------------------- -->
+            <!-- ------------------GTA SAN ANREAS------------------- -->
+            <!-- ------------------------------------- -->
+
+            <div class="hidegtacont" id="gtasancont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="PngItem_997601.png" alt="" style="width: 350px; height: 600px;">
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>Processor: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz</li>
+                                <li>Memory: 8GB</li>
+                                <li>Video Card: NVIDIA GTX 660 2GB / AMD HD7870 2GB</li>
+                                <li style="font-weight: 900;">PASSWORD: GAMEHUB OFFICIAL</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="single" id="gta_down_btn" target="_blank">DOWNLOAD</button>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ----------------------------------------- -->
+            <!-- -------------------------HITMAN ABSOLUTION ---------------- -->
+            <!-- ----------------------------------------- -->
+
+            <div class="hidegtacont" id="hitmancont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="hitman.png" alt="" >
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system" id="hit_box">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>CPU: True dual core CPU (Intel, AMD)</li>
+                                <li>Memory: 4GB</li>
+                                <li>VIDEO CARD: Nvidia Geforce 8600 512 Mb RAM, or AMD equivalent (Radeon HD 4650)</li>
+                                <li>DEDICATED VIDEO RAM: 1024 MB</li>
+                                <li>DISK SPACE: 15 GB</li>
+                                <li style="font-weight: 900;">PASSWORD: www.ovagames.com</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="loadbtn" id="hit_down_btn">DOWNLOAD PARTS</button>
+                            </div>
+                        </div>
+                        <div class="system2" id="hit_conta">
+                            <div class="loadpart">
+                                <a href="https://drive.google.com/file/d/1M8W5d82p7m1cSpEzXaCipSFjfa6fyuMh/view" target="_blank">PART 1</a>
+                                <a href="https://drive.google.com/file/d/1-F-2ybk1vX7_mRYbs8QdNu4obhTfUuiH/view" target="_blank">PART 2</a>
+                                <a href="https://drive.google.com/file/d/1TWrhdGGAYGwi4Veyga42TkOOktUn_v08/view" target="_blank">PART 3</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ----------------------------------------- -->
+            <!-- -----------------------FIFA 20------------------ -->
+            <!-- ----------------------------------------- -->
+
+            <div class="hidegtacont" id="fifacont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="fifa.png" alt="" >
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system" id="fifa_box">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>CPU: AMD FX-8150 / Core i5-3550 or better</li>
+                                <li>Memory: 8GB</li>
+                                <li>VIDEO CARD: Radeon R9 270X / GeForce GTX 670 or better</li>
+                                <li>DISK SPACE: 50 GB</li>
+                                <li>DEDICATED VIDEO RAM: 2048 MB</li>
+                                <li style="font-weight: 900;">PASSWORD: GAMEHUB OFFICIAL</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="loadbtn" id="fifa_down_btn">DOWNLOAD PARTS</button>
+                            </div>
+                        </div>
+                        <div class="system2" id="fifa_conta">
+                            <div class="loadpart">
+                                <a href="https://drive.google.com/file/d/1l7cm9hHBrNNxtD7QPqniZ5Qeim8-XOlA/view?usp=share_link" target="_blank" >PART 1</a>
+                                <a href="https://drive.google.com/file/d/1pzC_OsupW4Rqqooif0ZaH_gMmWMvaAGk/view?usp=share_link" target="_blank" >PART 2</a>
+                                <a href="https://drive.google.com/file/d/1zgVpjbYcibU_bwpQPNyJHQDJNlRHLZ6t/view?usp=sharing" target="_blank" >PART 3</a>
+                                <a href="https://drive.google.com/file/d/1KZN37r0hG5dihHQV-jM037DP4c23sXFW/view?usp=sharing" target="_blank" >PART 4</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ----------------------------------- -->
+            <!-- --------------------WATCH DOG --------------- -->
+            <!-- ----------------------------------- -->
+
+            <div class="hidegtacont" id="dogcont">
+                <div class="conta">
+                    <div class="set" id="set1">
+                        <img src="dog.png" alt="" >
+                    </div>
+                    <div class="set" id="set2">
+                        <div class="system" id="dog_box">
+                            <h1 class="head">SYSTEM REQUIREMENT</h1>
+                            <ul>
+                                <li>OS: Windows 10/11</li>
+                                <li>CPU: Intel Core 2 Quad Q8400 2.66Ghz or AMD Phenom II X4 940 3.0Ghz</li>
+                                <li>Memory: 4GB</li>
+                                <li>VIDEO CARD: Nvidia Geforce GTX 460 or AMD Radeon HD 5770 / Intel Iris Pro HD 5200</li>
+                                <li>DEDICATED VIDEO RAM: 1 GB</li>
+                                <li>DISK SPACE: 25 GB</li>
+                            </ul>
+                            <div class="downloadconta">
+                                <button class="loadbtn" id="dog_down_btn">DOWNLOAD PARTS</button>
+                            </div>
+                        </div>
+                        <div class="system2" id="dog_conta">
+                            <div class="loadpart">
+                                <a href="https://drive.google.com/file/d/1gMrV0jz5c5gXKLrFn1vlmIWeqd-YYWv9/view" target="_blank" >PART 1</a>
+                                <a href="https://drive.google.com/file/d/1gMrV0jz5c5gXKLrFn1vlmIWeqd-YYWv9/view" target="_blank" >PART 2</a>
+                                <a href="https://drive.google.com/file/d/1-c0hiZBCcn7dn12AwetetDPi0z63JvT8/view" target="_blank" >PART 3</a>
+                                <a href="https://drive.google.com/file/d/1I-cPz7P01f0hKDXNrma5BzUdBLPhxODr/view" target="_blank" >PART 4</a>
+                                <a href="https://drive.google.com/file/d/1mxL7Q3jbqQc4oA-3YgSSp0XMh_EVdoo_/view" target="_blank" >PART 5</a>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+            <!-- ------------------FOOTER--------------- -->
+            <!-- ------------------FOOTER--------------- -->
+            <!-- ------------------FOOTER--------------- -->
+
+            <div class="footer">
+                <div class="footerSection">
+                    <h1 class="sectionHead">ABOUT</h1>
+                    <p class="footerContent" style="color: #fff; text-decoration: underline; text-underline-offset: 5px;">Explore To CHANGE</p>
+                    <a href="#" class="footerContent">Developer</a>
+                </div>
+                <div class="footerSection">
+                    <h1 class="sectionHead">POLICIES</h1>
+                    <a href="#" class="footerContent">Download Policy</a>
+                    <a href="#" class="footerContent">Terms and Conditions</a>
+                    <a href="#" class="footerContent">Privacy Policy</a>
+                    <a href="#" class="footerContent">Learn More</a>
+                </div>
+                <div class="footerSection">
+                    <h1 class="sectionHead">NEWSLETTER</h1>
+                    <p class="footerContent">You can be the first one to know about our latest new releases, offers and more. Sign up now!</p>
+                    <input type="email" placeholder="Your-Email" class="emailinput">
+                </div>
+                <div class="footerSection">
+                        <h1 class="sectionHead">FOLLOW US</h1>
+                        <p class="footerContent">Stay In Touch!</p>
+                    <div class="social">
+                        <div class="socialbox">
+                            <a href="https://www.instagram.com/hatrix_wizard/" target="_blank"><img src="youtube.svg" alt="" ></a>
+                        </div>
+                        <div class="socialbox">
+                            <a  href="https://www.instagram.com/hatrix_wizard/" target="_blank"><img src="twitter.svg" alt=""></a>
+                        </div>
+                        <div class="socialbox">
+                            <a  href="https://www.instagram.com/hatrix_wizard/" target="_blank"><img src="facebook.svg" alt=""></a>
+                        </div>
+                        <div class="socialbox">
+                            <a href="https://www.instagram.com/hatrix_wizard/" target="_blank"><img src="instagram.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+    
+</body>
+</html>

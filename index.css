@@ -1,0 +1,648 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* #4E9F3D */
+
+html,body{
+    max-width: 1920px;
+    height: 100%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+.cont{   
+/*------------------------------------------ MAIN CONTAINER------------------------------- */
+/*------------------------------------------ MAIN CONTAINER------------------------------- */
+/*------------------------------------------ MAIN CONTAINER------------------------------- */
+/*------------------------------------------ MAIN CONTAINER------------------------------- */
+/*------------------------------------------ MAIN CONTAINER------------------------------- */
+
+    max-width: 1920px;
+    height: 100vh;
+    background-color: #191A19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gaga{ 
+/*--------------------------------------- ANIMATION CONTAINER----------------------------- */
+/*--------------------------------------- ANIMATION CONTAINER----------------------------- */
+/*--------------------------------------- ANIMATION CONTAINER----------------------------- */
+/*--------------------------------------- ANIMATION CONTAINER----------------------------- */
+/*--------------------------------------- ANIMATION CONTAINER----------------------------- */
+
+    max-width: 1920px;
+    height: 50px;
+    background-color: #fff;
+    animation-name: df;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes df {
+    0%{
+        margin-right: -1000%;
+        width: 100vw;
+        height: 50px;
+    }
+    25%{
+        margin-right: 0%;
+        width: 100vw;
+        height: 50px;
+    }
+    50%{
+        margin-right: 0%;
+        width: 100vw;
+        height: 100vh;
+    }
+75%{
+     margin-right: 0%;
+        width: 100vw;
+        height: 100vh;
+}
+    100%{
+        margin-right: 0%;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.contt{
+/* ----------------------------BODY PART OR WHOLE CONTENT CONTAINER----------------------- */
+/* ----------------------------BODY PART OR WHOLE CONTENT CONTAINER----------------------- */
+/* ----------------------------BODY PART OR WHOLE CONTENT CONTAINER----------------------- */
+/* ----------------------------BODY PART OR WHOLE CONTENT CONTAINER----------------------- */
+/* ----------------------------BODY PART OR WHOLE CONTENT CONTAINER----------------------- */
+
+    max-width: 1920px;
+    animation-name: fd;
+    animation-duration:  2s;
+    background-color: #191A19;
+    overflow: hidden;
+}
+
+@keyframes fd {
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    25%{
+        display: none;
+        opacity: 0.1;
+    }
+    50%{
+        display: none;
+        opacity: 0.2;
+    }
+    100%{
+        display: block;
+        opacity: 1;
+    }
+}
+
+/* --------------------------------------------NAVBAR------------------------------------- */
+/* --------------------------------------------NAVBAR------------------------------------- */
+/* --------------------------------------------NAVBAR------------------------------------- */
+/* --------------------------------------------NAVBAR------------------------------------- */
+/* --------------------------------------------NAVBAR------------------------------------- */
+
+
+.navbar{ 
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.logo{
+    width: 150px;
+}
+.navbar ul a{
+    height: 100%;
+    text-decoration: none;
+    font-family: 'gotham light';
+    font-weight: 900;
+    font-size: 16px;
+    display: inline;
+    margin: 5px 0px;
+    padding: 23px 15px;
+    /* transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1); */
+    cursor: pointer;
+    color: #000;
+}
+.navbar a:hover{
+    border-top: 5px solid black;
+    /* text-decoration: underline;
+    text-underline-offset: 5px; 
+    text-decoration-thickness: 2px; */
+}
+.rightnav{
+    margin: 0px ;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0px 40px;
+    color: #191A19;
+}
+.rightnav img{
+    width: 26px;
+    margin: 0px 7px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #231f20;
+    cursor: pointer;
+}
+
+/* -------------------------------HIDDEN BOX OR SIDE NAVBAR -------------------------- ----*/
+/* -------------------------------HIDDEN BOX OR SIDE NAVBAR -------------------------- ----*/
+/* -------------------------------HIDDEN BOX OR SIDE NAVBAR -------------------------- ----*/
+/* -------------------------------HIDDEN BOX OR SIDE NAVBAR -------------------------- ----*/
+/* -------------------------------HIDDEN BOX OR SIDE NAVBAR -------------------------- ----*/
+
+
+.hiddenbarbox{
+    display: none;
+    padding: 40px 0px;
+    height: calc(100vh - 60px);
+    width: 350px;
+    background-color: #231f20;
+    position: fixed;
+    top: -10px;
+    z-index: 21;
+    animation-name: hidden;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 1px 50px #231f20;
+}
+@keyframes hidden {
+    0%{
+        right: 100%;
+    }
+    25%{
+        right: 0%;
+    }
+    50%{
+        right: 0%;
+    }
+    75%{
+        right: 0%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+.closebtnhiddenbox,.boxbtns{
+    padding: 20px;
+    font-size: 20px;
+    width: 170px;
+    margin: 20px auto;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Gotham black';
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.closebtnhiddenbox:hover,.boxbtns:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+/* -------------------------------------POP CONTAINER------------------------------------ -*/
+/* -------------------------------------POP CONTAINER------------------------------------ -*/
+/* -------------------------------------POP CONTAINER------------------------------------ -*/
+/* -------------------------------------POP CONTAINER------------------------------------ -*/
+
+.showbox{
+    width: 100%;
+    height: 200px;
+    margin: 30px auto;
+}
+.scrollbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgbox{
+    width: 700px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+    margin: 0px 15px;
+    overflow: hidden;
+    animation-name: changeposter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 100%;
+}
+@keyframes changeposter {
+    0%{
+        background-image: url('fortnite-na-central-server-region-3-1920x1080-8e53d35d7d26.jpg');
+    }
+    20%{
+        background-image: url('fortnite-na-central-server-region-3-1920x1080-8e53d35d7d26.jpg');
+    }
+    40%{
+        background-image: url('minecraft-background-cfljc4haleghnajo.jpg');
+    }
+    60%{
+        background-image: url('minecraft-background-cfljc4haleghnajo.jpg');
+    }
+    80%{
+        background-image: url('ttg.webp');
+    }
+    100%{
+        background-image: url('ttg.webp');
+    }
+}
+.intra{
+    width: 100%;
+    height: 100%;
+    z-index: -12;
+}
+
+.hidbox{
+    width: 100%;
+    height: 100%;
+    background-color:#191A19a6;
+    z-index: 12;
+    margin-top: 0px;
+    transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidbox p{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Gotham black';
+    font-weight: 900;
+}
+.imgbox:hover{
+    margin-top: -20px;
+    transform: scale(105%);
+}
+.imgbox:hover .hidbox{
+    margin-top: -200px;
+    filter: blur(0px);
+}
+
+/* ------------------------------------CONTAINER------------------------------------------ */
+/* ------------------------------------CONTAINER------------------------------------------ */
+/* ------------------------------------CONTAINER------------------------------------------ */
+/* ------------------------------------CONTAINER------------------------------------------ */
+/* ------------------------------------CONTAINER------------------------------------------ */
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.gamebox{
+    width: 23.938rem;
+    height: 26rem;
+    border-radius: 10px;
+    margin: 15px 15px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgb(173, 173, 173);
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.gameimgbox{
+    width: 100%;
+    height: 230px;
+}
+.gameimgbox img{
+    width: 100%;
+    height: 100%;
+}
+.gamename{
+    font-family: 'Lovelo';
+    font-weight: 900;
+    font-size: 23px;
+    padding: 2px 20px;
+    color: #000;
+    margin: 10px 0px 0px;
+}
+.abtgame{
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'gotham light';
+    font-weight: 900;
+    color: #555555;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+.downloadbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.download{
+    width: 95%;
+    padding: 20px 5px;
+    font-family: gotham;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color: #fff;
+    border: 2px solid #231f20;
+}
+.download:hover{
+    background-color: #231f20;
+    border-color: #231f20;
+    color: #fff;
+}
+
+/* -----------------------------------FOOTER --------------------------------------------- */
+/* -----------------------------------FOOTER --------------------------------------------- */
+/* -----------------------------------FOOTER --------------------------------------------- */
+/* -----------------------------------FOOTER --------------------------------------------- */
+/* -----------------------------------FOOTER --------------------------------------------- */
+
+.footer{
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.footerSection{
+    width: 300px;
+    height: 280px;
+    margin: 40px 20px 20px;
+}
+.sectionHead{
+    font-family: 'Signika Negative';
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footerContent{
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerContent{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 13px;
+    width: 40px;
+    margin: 0px 3px;
+    height: 35px;
+    list-style: none;
+    transition: 1s cubic-bezier(.215,.61,.355,1);
+    border-radius: 50px;
+}
+.social img{
+    width:20px;
+    filter: invert();
+}
+.social a:hover{
+  
+    background-color: #fff;
+}
+.social a:hover img{
+    filter: none;
+}
+.emailinput{
+    padding: 15px 15px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+input::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+
+.hidegtacont{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.conta{
+    max-width: 100vw;
+    height: 100%;
+    padding: 50px 0px;
+    background-size: 100%;
+    background-image: url('gta5_bg.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#set1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#set1 img{
+    width: 80%;
+    height: 80%;
+}
+#set2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.system{
+    display: block;
+    width:90%;
+    height: 100%;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: #0000007e;
+}
+.system2{
+    width:90%;
+    height: 100%;
+    padding: 20px 0px;
+    border-radius: 10px;
+    background-color: #0000007e;
+    display: none;
+}
+.head{
+    font-family: 'gotham';
+    font-weight: 900;
+    color: #fff;
+    margin: 20px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border-left: 5px solid #fff;
+    display: inline-block;
+}
+ul li{
+    font-family: 'gotham light';
+    font-weight: 600px;
+    color: #fff;
+    margin: 15px 50px;
+}
+
+.downloadconta{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.downloadconta button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-family: 'gotham';
+    font-weight: 900;
+    margin: 5px 10px;
+    width: 190px;
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.single{
+    color: #fff;
+    background-color: transparent;
+}
+.loadbtn{
+    background-color: #fff;
+}
+.loadpart{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.loadpart a{
+    text-align: center;
+    width: 120px;
+    font-family: 'gotham';
+    font-weight: 900;
+    text-decoration: none;
+    color: #000;
+    margin: 8px;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+/* --------------- SCROLL BAR------------- */
+
+body::-webkit-scrollbar {
+    width: 1px;
+  }
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 1100px){
+    .barbtn{
+        display: none;
+    }
+    
+
+}
+@media screen and (max-width: 450px){
+    .hiddenbarbox{
+        width: 100vw;
+    }
+
+}
+@media screen and (max-width: 1100px){
+    .navlist{
+        display: none;
+    }
+    .searchbtn{
+        display: none;
+    }
+    .head{
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+        padding: 10px 0px;
+        width: 100%;
+    }
+}
+/* -------------------------HIDDEN DOWNLOAD BOX------------------- */
+@media screen and (max-width: 1340px){
+    .conta{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #set1{
+        width: 100%;
+    }
+    #set2{
+        width: 100%;
+    }
+}
